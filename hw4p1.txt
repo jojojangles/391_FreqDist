@@ -1,0 +1,24 @@
+
+Word      Count  Frequency
+
+she        1079  0.00811571
+Mr          685  0.00515224
+herself     191  0.00143661
+sister      154  0.00115831
+lady         47  0.00035351
+manner       85  0.00063933
+cried        80  0.00060172
+feelings     72  0.00054155
+pride        39  0.00029334
+great       120  0.00090258
+family      120  0.00090258
+home         54  0.00040616
+character    54  0.00040616
+letter       78  0.00058668
+happiness    51  0.00038360
+party        50  0.00037608
+means        47  0.00035351
+acquaintance 45  0.00033847
+woman        44  0.00033095
+
+

@@ -1,0 +1,17 @@
+import FreqDist
+
+def generateUnigramSeq(fdist, length):
+  counter = 0
+  unilist = []
+  
+  rando = random()
+  r = 0.0
+  for key in fdist.wordCount:
+    if(r < rando):
+      r += fdist.freq(key)
+    else:
+      unilist.append(key)
+      counter += 1
+    if(counter == length):
+      print unilist
+      return unilist

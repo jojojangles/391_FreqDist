@@ -1,0 +1,14 @@
+Thinking Questions:
+
+1. The generated word sequences bear very little resemblence to real English. To
+	improve their readability, we could use larger n-grams, so that our sequences
+	contain larger "correct" sub-sequences. Another possibility would be to use
+	part of speech tagging to further weight subsquent word choices such that some
+	structure of a grammatically correct sentence is adhered to if possible. This
+	would essentially be adding conditions to the conditional probability of an
+	n-gram existing after some other n-gram.
+
+2. If my function encounters an unseen context, it terminates the sequences and
+	returns the sequence thus far as a sentence. An unseen context could be the
+	last token of the corpus, if the very last token of the corpus is unique, 
+	and therefore has no "next" words to choose from.

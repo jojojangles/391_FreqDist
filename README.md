@@ -1,0 +1,8 @@
+This is CIS391 homework 4.
+
+The goal of the assignment was to create a program which would determine the
+probability of existence of unigram and bigrams of words in Pride and Prejudice
+using 3 difference distribution metrics. These distributions could be used to
+generate probable sentences using P&P as a training corpus.
+
+Completed 11/21/13
